@@ -1,0 +1,35 @@
+#light {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44%;
+    gap: 20px;
+
+}
+
+button {
+    transition: all .6s linear;
+    width: 120px;
+    height: 40px;
+    border: 2px solid yellow;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
